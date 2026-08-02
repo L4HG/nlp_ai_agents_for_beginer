@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+**/.DS_Store
+.AppleDouble
+Icon?
+
+# node
+node_modules/
+npm-debug.log*
+.npm/
+
+# сборка
+build/
+dist/
+
+# рабочая директория: распакованные .key, черновики, эксперименты
+work/
+
+# python
+.venv/
+__pycache__/
+
+# редакторы
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,18 @@
+{
+  "name": "nlp-course-decks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Курс «NLP, большие языковые модели и AI-агенты» для директоров операционного центра",
+  "devDependencies": {
+    "@marp-team/marp-cli": "4.5.0",
+    "pdf-lib": "^1.17.1",
+    "puppeteer-core": "^24.43.1"
+  },
+  "scripts": {
+    "build": "make all",
+    "check": "make check",
+    "doctor": "make doctor",
+    "watch": "make watch DECK=01-nlp-osnovy"
+  }
+}
