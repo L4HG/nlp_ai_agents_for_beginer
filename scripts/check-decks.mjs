@@ -89,7 +89,15 @@ for (const file of files) {
 
         const h = s.querySelector('h1, h2, h3, h4');
         const text = (s.innerText || '').replace(/\s+/g, ' ').trim();
-        const listItems = s.querySelectorAll('li').length;
+        // Считаем пункты в самом длинном списке, а не по всему слайду:
+        // в .compare две колонки по четыре пункта читаются легко,
+        // а один список из восьми — уже нет.
+        const listItems = Math.max(
+          0,
+          ...[...s.querySelectorAll('ul, ol')].map(
+            (l) => [...l.children].filter((c) => c.tagName === 'LI').length,
+          ),
+        );
 
         return {
           n: i + 1,
