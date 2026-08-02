@@ -7,8 +7,8 @@
 //
 // Требует CHROME_PATH (Makefile его выставляет).
 
-import { existsSync, mkdirSync } from 'node:fs';
-import { resolve, basename } from 'node:path';
+import { existsSync, mkdirSync, readFileSync } from 'node:fs';
+import { resolve, basename, dirname, join } from 'node:path';
 import { pathToFileURL } from 'node:url';
 import puppeteer from 'puppeteer-core';
 
@@ -29,11 +29,24 @@ if (!CHROME || !existsSync(CHROME)) {
 }
 
 // Пороги, ориентированные на аудиторию без технического бэкграунда.
-const MIN_SLIDES = 60;
-const MAX_SLIDES = 100;
+// Диапазон слайдов по умолчанию рассчитан на лекцию: час говорения ≈ 60–100 слайдов.
+// Колода со своим режимом (воркшоп, где половина времени — работа руками)
+// переопределяет его строкой `<!-- check: slides N-M -->` в исходнике.
+const DEFAULT_MIN_SLIDES = 60;
+const DEFAULT_MAX_SLIDES = 100;
 const MAX_CHARS = 350;
 const MAX_LIST_ITEMS = 7;
 const OVERFLOW_TOLERANCE = 2; // px, на округление раскладки
+
+// Ожидаемый диапазон слайдов берём из исходника колоды: build/X.html → decks/X.md
+function slideRange(htmlPath) {
+  const md = join(dirname(dirname(resolve(htmlPath))), 'decks', `${basename(htmlPath, '.html')}.md`);
+  if (existsSync(md)) {
+    const m = readFileSync(md, 'utf8').match(/check:\s*slides\s+(\d+)\s*-\s*(\d+)/);
+    if (m) return [parseInt(m[1], 10), parseInt(m[2], 10)];
+  }
+  return [DEFAULT_MIN_SLIDES, DEFAULT_MAX_SLIDES];
+}
 
 const browser = await puppeteer.launch({
   executablePath: CHROME,
@@ -124,8 +137,9 @@ for (const file of files) {
   console.log(`\n── ${name}`);
   console.log(`   слайдов: ${count}`);
 
-  if (count < MIN_SLIDES || count > MAX_SLIDES) {
-    console.log(`   ✗ вне диапазона ${MIN_SLIDES}–${MAX_SLIDES}`);
+  const [minSlides, maxSlides] = slideRange(file);
+  if (count < minSlides || count > maxSlides) {
+    console.log(`   ✗ вне диапазона ${minSlides}–${maxSlides}`);
     failed = true;
   }
 
