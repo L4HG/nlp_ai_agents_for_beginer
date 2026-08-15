@@ -214,10 +214,10 @@ title: Часть 1. Как машину научили читать
 </div>
 
 <div class="chips small">
-  <span class="t">1053</span><span class="t">1091</span><span class="t">1073</span><span class="t">32</span><span class="t">1079</span><span class="t">1072</span><span class="t">1082</span><span class="t">1088</span><span class="t">1099</span><span class="t">1090</span>
+  <span class="t">1050</span><span class="t">1083</span><span class="t">1091</span><span class="t">1073</span><span class="t">32</span><span class="t">1079</span><span class="t">1072</span><span class="t">1082</span><span class="t">1088</span><span class="t">1099</span><span class="t">1090</span>
 </div>
 
-<p class="muted small">Так выглядит фраза «Луб закрыт» в памяти машины. Всё остальное надо построить с нуля.</p>
+<p class="muted small">Так выглядит фраза «Клуб закрыт» в памяти машины. Всё остальное надо построить с нуля.</p>
 
 <!--
 Это переломный слайд первого блока. У компьютера нет ничего, кроме чисел.
