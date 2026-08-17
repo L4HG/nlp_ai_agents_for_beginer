@@ -122,6 +122,30 @@
 `.callout` — модификаторы `warn` / `bad` / `good`. `.cols-1-2` и `.cols-2-1` — несимметричные колонки.
 `.pt.dim` — приглушённая точка таймлайна.
 
+### `.meme` — картинка-мем с накладными подписями
+
+```html
+<div class="meme" style="--h:460px">
+  <img src="../assets/top-memes/076-futurama-fry.jpg" alt="Фрай прищурился">
+  <span class="cap top">Не пойму: модель тупая</span>
+  <span class="cap bottom">или я плохо объясняю</span>
+</div>
+```
+
+`.cap.top` / `.cap.bottom` — классические верх/низ. `.cap.dark` — тёмный текст без обводки
+для белых областей шаблона (Дрейк, «две кнопки»). `.cap.free` + inline `left/top/width`
+в процентах — подпись в конкретной панели многопанельного шаблона. `.cap.small` /
+`.cap.xsmall` — мельче. `--h` — максимальная высота картинки (по умолчанию 480px).
+
+### `.imgframe` — фото или скриншот с рамкой
+
+```html
+<figure class="imgframe" style="--h:440px">
+  <img src="../assets/workshop/search/…/001.png" alt="Скриншот">
+  <figcaption>Подпись и источник мелким шрифтом</figcaption>
+</figure>
+```
+
 ## Инлайновый SVG
 
 Для настоящей геометрии (карта смыслов, внимание, деревья генерации). Правила:
