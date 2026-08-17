@@ -478,5 +478,71 @@ section.dark .muted { color: var(--dark-muted); }
 svg { max-width: 100%; height: auto; display: block; }
 svg text { font-family: var(--font-sans); }
 
+/* --- .meme: картинка-мем с накладными подписями --- */
+/* <div class="meme"><img src="…"><span class="cap top">Текст</span></div>
+   .cap.top/.bottom — классика сверху/снизу; .cap.free + inline left/top/width —
+   произвольная панель; .cap.dark — тёмный текст для белых областей шаблона;
+   .cap.small — мельче. Высота картинки: --h на .meme (по умолчанию 480px). */
+.meme {
+  position: relative;
+  width: max-content;
+  max-width: 100%;
+  margin: 0.4em auto;
+}
+.meme img {
+  display: block;
+  max-height: var(--h, 480px);
+  width: auto;
+  max-width: 1100px;
+  border-radius: 8px;
+}
+.meme .cap {
+  position: absolute;
+  left: 0;
+  right: 0;
+  padding: 0 14px;
+  text-align: center;
+  font-family: "Arial Black", "Helvetica Neue", Arial, sans-serif;
+  font-weight: 900;
+  font-size: 33px;
+  line-height: 1.12;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow:
+    2px 2px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000,
+    0 2px 0 #000, 0 -2px 0 #000, 2px 0 0 #000, -2px 0 0 #000, 0 0 10px rgba(0,0,0,0.5);
+}
+.meme .cap.top { top: 10px; }
+.meme .cap.bottom { bottom: 10px; }
+.meme .cap.free { right: auto; }
+.meme .cap.dark { color: #14181f; text-shadow: none; font-weight: 800; text-transform: none; }
+.meme .cap.small { font-size: 24px; }
+.meme .cap.xsmall { font-size: 19px; }
+
+/* --- .imgframe: фото/скриншот с рамкой и подписью-источником --- */
+/* <figure class="imgframe"><img src="…"><figcaption>Подпись</figcaption></figure> */
+.imgframe {
+  width: max-content;
+  max-width: 100%;
+  margin: 0.4em auto;
+  text-align: center;
+}
+.imgframe img {
+  display: block;
+  max-height: var(--h, 470px);
+  width: auto;
+  max-width: 1100px;
+  border: 2px solid var(--border);
+  border-radius: var(--radius);
+  background: #fff;
+}
+.imgframe figcaption {
+  font-size: 20px;
+  color: var(--muted);
+  margin-top: 10px;
+  line-height: 1.25;
+}
+
 /* отладка переполнений: <!-- _class: debug-overflow --> */
 section.debug-overflow * { outline: 1px solid rgba(255, 0, 0, 0.35); }

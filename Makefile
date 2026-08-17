@@ -11,14 +11,16 @@ export CHROME_DISABLE_GPU := 1
 
 PDFS  := $(DECKS:%=build/%.pdf)
 HTMLS := $(DECKS:%=build/%.html)
+PPTXS := $(DECKS:%=build/%.pptx)
 NOTES := $(DECKS:%=build/notes-%.md)
 
-.PHONY: all pdf html notes handouts check watch clean doctor
+.PHONY: all pdf html pptx notes handouts check watch clean doctor release
 
 all: pdf html notes
 
 pdf:   $(PDFS)
 html:  $(HTMLS)
+pptx:  $(PPTXS)
 notes: $(NOTES)
 
 build:
@@ -29,6 +31,18 @@ build/%.pdf: decks/%.md theme/corporate.css marp.config.mjs | build
 
 build/%.html: decks/%.md theme/corporate.css marp.config.mjs | build
 	$(MARP) --html --allow-local-files -o $@ $<
+
+build/%.pptx: decks/%.md theme/corporate.css marp.config.mjs | build
+	$(MARP) --pptx --allow-local-files -o $@ $<
+
+# Готовые файлы для раздачи: PDF + PPTX + HTML в release/ (коммитятся в git).
+# PPTX — послайдовый рендер (картинки), а не редактируемые фигуры: это цена
+# точного соответствия вёрстке.
+release: pdf html pptx
+	@mkdir -p release
+	cp $(PDFS) $(HTMLS) $(PPTXS) release/
+	node scripts/inline-images.mjs $(HTMLS:build/%=release/%)
+	@ls -lh release/
 
 build/notes-%.md: decks/%.md scripts/extract-notes.mjs | build
 	node scripts/extract-notes.mjs $< > $@

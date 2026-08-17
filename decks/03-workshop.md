@@ -5,6 +5,7 @@ paginate: true
 size: 16:9
 lang: ru
 title: Часть 3. Воркшоп — ставим агента руками
+transition: fade
 ---
 
 <!--
@@ -97,6 +98,23 @@ title: Часть 3. Воркшоп — ставим агента руками
 
 ---
 
+<!-- @ 0.4a мем: this is fine -->
+
+## Настрой на ближайший час
+
+<div class="meme" style="--h:340px">
+  <img src="../assets/top-memes/039-this-is-fine.jpg" alt="Мем «This is fine»: пёс в горящей комнате">
+</div>
+
+<p class="muted center">И здесь это правда fine: всё происходит в песочнице на вашем ноутбуке. Худшее из возможного — переустановить заново.</p>
+
+<!--
+Снять страх «нажму не то и сломаю» — главный тормоз таких залов. Огонь на картинке — это макет, а не прод.
+Хронометраж: 15
+-->
+
+---
+
 <!-- @ 0.5 два пути -->
 
 ## Два пути установки
@@ -162,6 +180,7 @@ title: Часть 3. Воркшоп — ставим агента руками
 
 <!-- @ 1.0 разделитель установка -->
 <!-- _class: section -->
+<!-- _transition: cover -->
 
 #### Блок 1 · 15 минут
 
@@ -297,6 +316,23 @@ title: Часть 3. Воркшоп — ставим агента руками
 
 ---
 
+<!-- @ 1.3a мем: скелет -->
+
+## Пока крутится полоска
+
+<div class="meme">
+  <img src="../assets/top-memes/014-waiting-skeleton.jpg" alt="Скелет ждёт на скамейке">
+  <span class="cap top xsmall">Полоска замерла на 99%</span>
+  <span class="cap bottom xsmall">Она не зависла. Она думает</span>
+</div>
+
+<!--
+Слайд-фон на время установки. Пока все ждут — обойти столы.
+Хронометраж: 10
+-->
+
+---
+
 <!-- @ 1.4 шаг 4 -->
 <!-- _class: step -->
 
@@ -326,6 +362,24 @@ title: Часть 3. Воркшоп — ставим агента руками
 <!--
 Этот слайд обязателен: без него половина зала решит, что установщик — вирус, и остановится.
 Хронометраж: 60
+-->
+
+---
+
+<!-- @ 1.4a мем: паник-калм -->
+
+## Штатная последовательность эмоций
+
+<div class="meme" style="--h:500px">
+  <img src="../assets/top-memes/073-panik-kalm-panik.png" alt="Мем «паника — спокойствие — паника»">
+  <span class="cap free dark xsmall" style="left:3%; top:11%; width:42%">Синее окно на весь экран</span>
+  <span class="cap free dark xsmall" style="left:3%; top:44%; width:42%">В раздатке написано, куда нажать</span>
+  <span class="cap free dark xsmall" style="left:3%; top:77%; width:42%">Теперь ругается антивирус</span>
+</div>
+
+<!--
+Нормализовать панику заранее: предупреждений будет два-три, все описаны в раздатке.
+Хронометраж: 10
 -->
 
 ---
@@ -383,6 +437,23 @@ title: Часть 3. Воркшоп — ставим агента руками
 Третий пункт — самый частый в корпоративной среде и единственный, который нельзя решить за минуту.
 Не тратить на него время: сразу объединять команду с соседней.
 Хронометраж: 60
+-->
+
+---
+
+<!-- @ 1.5b мем: it crowd -->
+
+## Совет, который старше всех нас
+
+<div class="meme" style="--h:400px">
+  <img src="../assets/workshop/search/it-crowd-turn-it-off-and-on-again/005-it-department-have-you-tried-turning-it-off-and-on-again-it-crowd.jpg" alt="Кадр из IT Crowd: «Have you tried turning it off and on again?»">
+</div>
+
+<p class="muted center">«Вы пробовали выключить и включить?» — в нашем случае: закрыть всё и запустить установщик заново. Помогает в двух случаях из трёх.</p>
+
+<!--
+Показывать с иронией, но совет реальный: повторный запуск установщика чинит недокачанные файлы.
+Хронометраж: 10
 -->
 
 ---
@@ -451,6 +522,23 @@ npm install -g openclaw && openclaw init
 
 ---
 
+<!-- @ 1.6b мем: медаль -->
+
+## Медаль каждому, кто скажет это сегодня
+
+<div class="meme" style="--h:420px">
+  <img src="../assets/workshop/search/it-works-on-my-machine-meme-22-22-2/002-awarded-for-excellence-in-the-it-works-on-my-machine-category.jpg" alt="Шуточная медаль «It works on my machine»">
+</div>
+
+<p class="muted center">«У меня же работает» — не аргумент, а повод сверить версии: у вас 22.22.3, у соседа 22.22.2.</p>
+
+<!--
+Классика поддержки. Заодно закрепляет мораль пути A: пусть о версиях думает установщик.
+Хронометраж: 10
+-->
+
+---
+
 <!-- @ 1.7 контрольная точка -->
 <!-- _class: bigtype -->
 
@@ -468,6 +556,7 @@ npm install -g openclaw && openclaw init
 
 <!-- @ 2.0 разделитель первый запуск -->
 <!-- _class: section -->
+<!-- _transition: cover -->
 
 #### Блок 2 · 10 минут
 
@@ -632,6 +721,22 @@ npm install -g openclaw && openclaw init
 
 ---
 
+<!-- @ 2.4b мем: math lady -->
+
+## Умножение «по памяти» выглядит так
+
+<div class="meme" style="--h:420px">
+  <img src="../assets/workshop/search/math-lady-meme-248-171/001-math-calculation-lady-blank-template-imgflip.png" alt="Мем «math lady»: растерянное лицо на фоне формул">
+  <span class="cap bottom small">847 × 293 = ну примерно 250 тысяч</span>
+</div>
+
+<!--
+Показывать только если у какой-то команды число не сошлось — тогда это идеальная разрядка. Если сошлось у всех, пролистнуть.
+Хронометраж: 10
+-->
+
+---
+
 <!-- @ 2.5 что вы только что видели -->
 
 ## Что вы только что видели
@@ -671,6 +776,7 @@ npm install -g openclaw && openclaw init
 
 <!-- @ 3.0 разделитель скиллы -->
 <!-- _class: section -->
+<!-- _transition: cover -->
 
 #### Блок 3 · 15 минут
 
@@ -802,6 +908,23 @@ npm install -g openclaw && openclaw init
 <!--
 Это самый практичный слайд воркшопа. Попросить всех вписать эту строку в свой скилл прямо сейчас.
 Хронометраж: 50
+-->
+
+---
+
+<!-- @ 3.3c мем: анкормен -->
+
+## Сводка без этой строки
+
+<div class="meme" style="--h:410px">
+  <img src="../assets/workshop/search/60-percent-of-the-time-it-works-every-time/004-the-anchorman-meme-at-timothy-mitchell-blog.jpg" alt="Кадр из «Телеведущего»: «60% of the time, it works every time»">
+</div>
+
+<p class="muted center">«Исследования проводились: в 60% случаев работает всегда». Так звучит отчёт, которому разрешили выдумывать числа.</p>
+
+<!--
+Абсурдная статистика Брайана Фантаны — ровно то, что производит агент без запрета «нет данных — пиши „нет данных“».
+Хронометраж: 10
 -->
 
 ---
@@ -954,6 +1077,7 @@ npm install -g openclaw && openclaw init
 
 <!-- @ 4.0 разделитель боевая задача -->
 <!-- _class: section -->
+<!-- _transition: cover -->
 
 #### Блок 4 · 10 минут
 
@@ -1067,8 +1191,26 @@ npm install -g openclaw && openclaw init
 
 ---
 
+<!-- @ 4.3a мем: боб росс -->
+
+## Как это называл Боб Росс
+
+<div class="meme" style="--h:390px">
+  <img src="../assets/workshop/search/bob-ross-happy-little-accidents/005-quotables-happy-little-accidents-graphic-design-usa.jpg" alt="Боб Росс: «We don't make mistakes, just happy little accidents»">
+</div>
+
+<p class="muted center">«Мы не ошибаемся — у нас счастливые маленькие случайности». Каждая — готовая строка в раздел «чего не делать».</p>
+
+<!--
+Тёплая точка перед разбором: неудачный прогон — это материал, а не провал.
+Хронометраж: 10
+-->
+
+---
+
 <!-- @ 5.0 разделитель разбор -->
 <!-- _class: section -->
+<!-- _transition: cover -->
 
 #### Блок 5 · 10 минут
 
@@ -1254,6 +1396,25 @@ npm install -g openclaw && openclaw init
 <!--
 Типичная ошибка руководителя после такого воркшопа — взяться за самое большое. Предупредить прямо.
 Хронометраж: 40
+-->
+
+---
+
+<!-- @ 5.5a мем: план гру -->
+
+## План, который мы только что отменили
+
+<div class="meme" style="--h:450px">
+  <img src="../assets/top-memes/012-gru-s-plan.jpg" alt="Мем «план Гру», четыре панели">
+  <span class="cap free dark xsmall" style="left:28%; top:9%;  width:20%">Автоматизировать всё разом</span>
+  <span class="cap free dark xsmall" style="left:78%; top:9%;  width:20%">Дать агенту все доступы</span>
+  <span class="cap free dark xsmall" style="left:28%; top:59%; width:20%">Агент молча удалил лишнее</span>
+  <span class="cap free dark xsmall" style="left:78%; top:59%; width:20%">Агент молча удалил лишнее</span>
+</div>
+
+<!--
+Четвёртая панель повторяет третью — в этом вся шутка. Дать зачитать самим.
+Хронометраж: 15
 -->
 
 ---
