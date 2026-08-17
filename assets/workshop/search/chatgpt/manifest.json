@@ -1,0 +1,47 @@
+[
+  {
+    "file": "001-chatgpt-2.png",
+    "source_url": "https://cdn1.tenchat.ru/static/vbc-gostinder/2025-10-09/compressed/ccbec666-0a9e-4db9-94da-a0618d7f6cab.png?width=1320&height=720&fmt=webp",
+    "title": "Люди используют ChatGPT как адвоката в суде - уже есть выигрышные дела ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://tenchat.ru/media/3887136-lyudi-ispolzuyut-chatgpt-kak-advokata-v-sude--uzhe-yest-vyigryshnyye-dela",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://resizer.mail.ru/p/d523f6ab-454c-521f-8bd6-fa46caab9f12/AQA47YkI8b_AOJpq_kdNL4US4ifS13QIYEEby2EdxmGL6EQiee5w-dDzOZwECako7maaLTqCCdWm1ZOxxUdeZFqpcAQ.png",
+    "title": "Адвокат в Калифорнии оштрафован за использование ChatGPT",
+    "source": "web",
+    "license": null,
+    "page_url": "https://science.mail.ru/news/37513-advokata-oshtrafovali-za-chatgpt/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1017)>"
+  },
+  {
+    "file": "003-chatgpt-2.jpg",
+    "source_url": "https://cdn.shazoo.ru/811969_b3AN52s_6t16yislpz.jpg",
+    "title": "Судья отправил адвоката на \"дообучение\" за использование ChatGPT для ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://shazoo.ru/2025/07/31/170934/sudia-otpravil-advokata-na-doobucenie-za-ispolzovanie-chatgpt-dlia-sozdaniia-nesushhestvuiushhix-sudebnyx-precedentov",
+    "error": null
+  },
+  {
+    "file": "004-chatgpt-2.png",
+    "source_url": "https://tn.fishki.net/53/upload/post/2025/10/04/4925712/bb468793f8e6c5f84b5f68e96d83c56f.png",
+    "title": "В США оштрафовали адвоката, который доверял ChatGPT, как родной маме",
+    "source": "web",
+    "license": null,
+    "page_url": "https://fishki.net/4925712-v-ssha-oshtrafovali-advokata-kotoryj-doverjal-chatgpt-kak-ro.html",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://afftimes.com/wp-content/uploads/2025/10/photo_2025-10-09_18-42-24.jpg",
+    "title": "ИИ вместо юриста: как ChatGPT помогает американцам выигрывать суды ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://afftimes.com/news/kak-chatgpt-pomogaet-amerikanczam-vyigryvat-sudy/",
+    "error": "HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporaryRedirect"
+  }
+]

@@ -1,0 +1,47 @@
+[
+  {
+    "file": "001-aws-bill-teardown-1-saas-startup-s-40k-month-overrun.jpg",
+    "source_url": "https://www.factualminds.com/_astro/aws-bill-teardown-1-saas-startup-40k-month-overrun.wT42Jrb0_1H4ksm.jpg",
+    "title": "AWS Bill Teardown #1: SaaS Startup's $40k/Month Overrun",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.factualminds.com/blog/aws-bill-teardown-1-saas-startup-40k-month-overrun/",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://www.researchgate.net/publication/281278649/figure/fig1/AS:654421826469889@1533037730502/Snippets-from-news-articles-that-reported-AWS-key-leaks-Simply-searching-for-AWS-key.png",
+    "title": "Snippets from news articles that reported AWS key leaks. Simply ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.researchgate.net/figure/Snippets-from-news-articles-that-reported-AWS-key-leaks-Simply-searching-for-AWS-key_fig1_281278649",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "003-4-things-you-should-know-about-your-aws-backup-bill-druva.png",
+    "source_url": "https://www.druva.com/content/druvaincprogram/us/en/blog/4-things-you-should-know-about-your-aws-backup-bill/_jcr_content/root/container/container/container/container/image_1938677617.coreimg.85.480.png/1677364437723/awsbills2.png",
+    "title": "4 Things You Should Know About Your AWS Backup Bill | Druva",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.druva.com/blog/4-things-you-should-know-about-your-aws-backup-bill",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://res.cloudinary.com/dx1kpewvo/image/upload/v1678458832/2023-03-13/aws-bill-1_edited_vt0dyq.png",
+    "title": "The 5 Minute Hack to Saving Money with AWS S3 | DevOps | Carmen's ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://carmencincotti.com/2023-03-20/the-five-minute-hack-to-saving-money-with-aws-s3/",
+    "error": "<urlopen error [Errno 54] Connection reset by peer>"
+  },
+  {
+    "file": "005-how-to-view-your-actual-aws-bill-if-you-have-aws-credits.png",
+    "source_url": "https://td-mainsite-cdn.tutorialsdojo.com/wp-content/uploads/2022/11/aws-certified-solutions-architect-associate-SAA-C03-aws-billing-800x457.png",
+    "title": "How to View your Actual AWS Bill if you have AWS Credits",
+    "source": "web",
+    "license": null,
+    "page_url": "https://tutorialsdojo.com/how-to-view-your-actual-aws-bill-if-you-have-aws-credits/",
+    "error": null
+  }
+]

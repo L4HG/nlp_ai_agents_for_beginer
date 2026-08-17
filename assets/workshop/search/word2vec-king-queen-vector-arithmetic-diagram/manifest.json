@@ -1,0 +1,47 @@
+[
+  {
+    "file": "001-word2vec-moxbox.png",
+    "source_url": "https://hazm.at/mox/machine-learning/natural-language-processing/word-embedding/word2vec/king-queen.png",
+    "title": "word2vec - MOXBOX",
+    "source": "web",
+    "license": null,
+    "page_url": "https://hazm.at/mox/machine-learning/natural-language-processing/word-embedding/word2vec/index.html",
+    "error": null
+  },
+  {
+    "file": "002-word2vec-embeddings-data-mining.png",
+    "source_url": "https://pantelis.github.io/cs634/docs/common/lectures/nlp/word2vec/images/queen-example.png",
+    "title": "Word2Vec Embeddings | Data Mining",
+    "source": "web",
+    "license": null,
+    "page_url": "https://pantelis.github.io/cs634/docs/common/lectures/nlp/word2vec/",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://www.researchgate.net/publication/344863619/figure/fig4/AS:986482806370304@1612207237131/Word-vectors-in-word2vec-models.ppm",
+    "title": "Word vectors in word2vec models | Download Scientific Diagram",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.researchgate.net/figure/Word-vectors-in-word2vec-models_fig4_344863619",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "",
+    "source_url": "https://www.researchgate.net/publication/358432453/figure/fig1/AS:1121209337020446@1644328545976/Analogical-reasoning-on-vectors-a-king-man-womanqueen-and-b.jpg",
+    "title": "Analogical reasoning on vectors: (a) king - man + woman ≈ queen and (b ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.researchgate.net/figure/Analogical-reasoning-on-vectors-a-king-man-womanqueen-and-b_fig1_358432453",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "file": "005-4-2-1-word2vec-oddly-satisfying-deep-learning.png",
+    "source_url": "https://pythonandml.github.io/dlbook/_images/king_queen.png",
+    "title": "4.2.1. Word2Vec — Oddly Satisfying Deep Learning",
+    "source": "web",
+    "license": null,
+    "page_url": "https://pythonandml.github.io/dlbook/content/word_embeddings/word2vec.html",
+    "error": null
+  }
+]

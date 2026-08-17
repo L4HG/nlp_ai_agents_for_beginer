@@ -1,0 +1,47 @@
+[
+  {
+    "file": "001-georgetownibm-experiment-culturenow-museum-without-walls.png",
+    "source_url": "https://storage.googleapis.com/cnow/img/36e337e2-5217-4345-a187-d80d76db754b/original.png",
+    "title": "Georgetown–IBM experiment - CultureNow - Museum Without Walls",
+    "source": "web",
+    "license": null,
+    "page_url": "https://culturenow.org/site/60960d98-f0bd-469f-8172-fc46a162b6fb",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://image2.slideserve.com/3967861/ibm-701-at-new-york-headquarters-l.jpg",
+    "title": "PPT - The Georgetown-IBM experiment demonstrated in January 1954 ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.slideserve.com/iona/the-georgetown-ibm-experiment-demonstrated-in-january-1954",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>"
+  },
+  {
+    "file": "003-on-this-day-january-7-1954-georgetown-ibm-experiment-the-first.jpg",
+    "source_url": "https://i.ytimg.com/vi/icpI8jnvGlM/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLC5XzEpjFX8hQRQCKLILKdlFsEQAA",
+    "title": "On This Day: January 7, 1954 - Georgetown-IBM Experiment: The First ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.youtube.com/shorts/icpI8jnvGlM",
+    "error": null
+  },
+  {
+    "file": "",
+    "source_url": "https://image2.slideserve.com/3967861/data-input1-l.jpg",
+    "title": "PPT - The Georgetown-IBM experiment demonstrated in January 1954 ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.slideserve.com/iona/the-georgetown-ibm-experiment-demonstrated-in-january-1954",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1017)>"
+  },
+  {
+    "file": "005-on-this-day-january-7-1954-georgetown-ibm-experiment-the-first.jpg",
+    "source_url": "https://i.ytimg.com/vi/icpI8jnvGlM/maxres2.jpg?sqp=-oaymwEoCIAKENAF8quKqQMcGADwAQH4AbYIgAKAD4oCDAgAEAEYYyBjKGMwDw==&rs=AOn4CLC-CW8wzEqC5sbysyzIfgGqfmA6qg",
+    "title": "On This Day: January 7, 1954 - Georgetown-IBM Experiment: The First ...",
+    "source": "web",
+    "license": null,
+    "page_url": "https://www.youtube.com/watch?v=icpI8jnvGlM",
+    "error": null
+  }
+]
